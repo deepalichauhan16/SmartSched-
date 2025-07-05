@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 
 Flask
 pandas
 openpyxl
-=======
-
-Flask
-pandas
-openpyxl
->>>>>>> c2a9b12ff70651acba4757364b54e8f4d46c2fdc
-fpdf
