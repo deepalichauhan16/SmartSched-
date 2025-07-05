@@ -1,5 +1,5 @@
 
-# 📅 SmartSched — AI-Powered Timetable Generator
+# 📅 SmartSched — Automated Timetable Generator
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
@@ -31,23 +31,38 @@ It automates timetable scheduling using **Graph Coloring** and **Backtracking al
 ## 🛠️ Tech Stack
 
 - **Python 3.x**
-- **HTML/CSS**
-- **SQLite** (optional)
+- **HTML**
+- **CSS**
+- **Javascript**
+- **SQLite** 
 
 ---
 
 ## 📂 Project Structure
 
 ```
-
-SmartSched/
-├── app.py               # Main app logic
-├── backtracking.py      # Backtracking algorithm
-├── graph\_coloring.py    # Graph Coloring logic
-├── index.html           # Frontend page
-├── timetable.html       # Output timetable page
-├── requirements.txt     # Dependencies
-├── README.md            # Project documentation
+SmartSched-Automated-Timetable-Generator/
+│
+├── Scheduling/
+│   ├── backtracking.py
+│   ├── graph_coloring.py
+│
+├── Database/
+│   ├── smartsheet.db         # Your SQLite database file
+│
+├── static/
+│   ├── index.html            # Main input page
+│   ├── timetable.html        # Timetable output page
+│
+├── app.py                    # Main entry point (runs the app/server)
+├── initdb.py                 # Script to initialize/setup the DB
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+│
+├── images/                   # Screenshots for README
+│   ├── screenshot1.png
+│   ├── screenshot2.png
+|   ├── screenshot3.png
 
 ````
 
@@ -57,8 +72,8 @@ SmartSched/
 
 1️⃣ **Clone this repo**
 ```bash
-git clone https://github.com/deepalichauhan16/SmartSched-.git
-cd SmartSched-
+git clone https://github.com/deepalichauhan16/SmartSched-Automated-Timetable-Generator.git
+cd SmartSched-Automated-Timetable-Generator
 ````
 
 2️⃣ **Install dependencies**
@@ -67,14 +82,36 @@ cd SmartSched-
 pip install -r requirements.txt
 ```
 
-3️⃣ **Run the app**
+3️⃣ **Create a virtual environment named 'venv'**
+
+```bash
+python -m venv venv
+```
+
+4️⃣ **Activate the virtual environment**
+
+```bash
+# On Windows:
+venv\Scripts\activate
+
+# On Mac/Linux:
+source venv/bin/activate
+```
+
+5️⃣ **Run the app**
+
+Run the Python application:
 
 ```bash
 python app.py
 ```
+By default, it will start a local server on http://127.0.0.1:5000/
 
-4️⃣ **View timetable**
-Open `index.html` in your browser to input data and generate the timetable.
+6️⃣ View the timetable
+
+Open your browser and go to:
+http://127.0.0.1:5000/
+Use the web interface to input data and generate your timetable!
 
 ---
 
