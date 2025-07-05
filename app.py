@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 670fd07d6ba2ed0b5dde7520478c5e57e62739ae
 from flask import Flask, render_template, request, redirect, url_for, send_file, session
 import sqlite3
 import pandas as pd
