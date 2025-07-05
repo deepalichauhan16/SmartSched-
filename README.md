@@ -111,8 +111,10 @@ This project is licensed under the [MIT License](LICENSE).
 ## ✨ Author
 
 **Deepali Chauhan**
+
 🔗 [LinkedIn](https://www.linkedin.com/in/deepali-chauhan-b7881230b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-📫 \[[your-email@example.com](mailto:deepalic1612@gmail.com)]
+
+📫 \[[Email](mailto:deepalic1612@gmail.com)]
 
 ---
 
