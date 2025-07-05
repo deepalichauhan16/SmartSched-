@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, render_template, request, redirect, url_for, send_file, session
 import sqlite3
 import pandas as pd
